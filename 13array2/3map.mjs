@@ -9,8 +9,6 @@ return  item*i;
 console.log(ar2);
 
 
-
-
 let ar3 = ar1.map(  (item,i)=>{
     return item+2;
 })
