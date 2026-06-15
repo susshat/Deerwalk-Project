@@ -6,7 +6,7 @@ let users = [
 ];
  
 //we ultimatelly need number as a return value 
-//to sort according to age
+// sort according to age
 let sortedUsers = users.sort((a,b)=>{
 return a.age-b.age;
 });
