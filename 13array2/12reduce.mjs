@@ -6,15 +6,17 @@ let product =[
 ]
 
 
-let filtProduct = product.reduce((pre,cur)=>{
-if(cur.price >= 20000){
-    return cur.price
-}
-else{
-    return "ok";
-} 
-},0
 
-);
+let pr1 = product.reduce((pre,cur)=>{
 
-    console.log(filtProduct);
+    if(cur.price >= 20000) {
+        return [...pre,cur];
+    }else{
+        return pre
+    }
+},[])
+
+console.log(pr1)
+
+
+//question name those items whos names start from mobile and tv

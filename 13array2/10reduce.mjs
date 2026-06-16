@@ -14,3 +14,5 @@ let product = ar1.reduce((pre, cur)=>{
 return pre*cur;
 },1)
 console.log(product);
+
+//in reduce the inital value is changed with the input value 
