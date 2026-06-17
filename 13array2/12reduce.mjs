@@ -20,3 +20,14 @@ console.log(pr1)
 
 
 //question name those items whos names start from mobile and tv
+
+let pr2 = product.reduce((pre,cur)=>{
+
+if (cur.name === "mobile" && cur.name === "tv"){
+    return[...pre,cur]
+}
+else{
+    return pre;
+}
+
+},[])
