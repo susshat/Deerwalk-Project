@@ -5,8 +5,6 @@ let product =[
     {name: "laptop", price: 30000},
 ]
 
-
-
 let pr1 = product.reduce((pre,cur)=>{
 
     if(cur.price >= 20000) {
@@ -33,7 +31,7 @@ let product =[
 let pr2 = product.reduce((pre,cur)=>{
 
 if (cur.name === "mobile" && cur.name === "tv"){
-    return[...pre,cur]; //did not understand the logic
+    return[...pre,cur]; //here spread opens the bracket and adds the previous value with the current value
 }
 else{
     return pre;
