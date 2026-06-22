@@ -7,9 +7,7 @@ let users = [
  
 //we ultimatelly need number as a return value 
 // sort according to age
-let sortedUsers = users.sort((a,b)=>{
-return a.age-b.age;
-});
+let sortedUsers = users.sort((a,b)=> a.age-b.age);
  console.log(sortedUsers)
 
 let sortedUsers2 = users.sort((a,b)=>{
