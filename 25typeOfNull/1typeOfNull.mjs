@@ -5,7 +5,7 @@ console.log(typeof a)
 console.log(typeof null);// though it is primitive the type is object
 
 
-//for non primitive  type is object
+//for non primitive type is object
 
 let b = {name: "sus"}
 
