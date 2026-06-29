@@ -11,8 +11,8 @@
 }
 
 //if a new value to an old variable is assigned in the child block,
-//  it will ry to look for in in its own block, if no found 
-//it will change the parent block if variable. 
+//it will try to look for in in its own block, if not found 
+//it will change the parent block of the variable. 
 //grandchild ==> child ==> parent 
 
 
